@@ -13,6 +13,9 @@ module.exports = {
 				darkGrey: '#333136',
 				lightGrey: '#F1F3F5',
 			},
+			backgroundImage: {
+				'hero-home': 'url("/assets/home/desktop/bg-pattern-hero-home.svg")',
+			},
 		},
 	},
 	plugins: [require('@tailwindcss/forms')],
