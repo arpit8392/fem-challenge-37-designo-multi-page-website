@@ -1,8 +1,9 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import HeroImage from '@/public/assets/home/desktop/image-hero-phone.png'
+import CTAButton from '../CTAButton'
 
-const HomeHero = () => {
+const Hero = () => {
 	return (
 		<section className='relative flex flex-col items-center overflow-hidden bg-peach bg-hero-home bg-left-bottom bg-no-repeat px-6 pb-[350px] pt-20 text-center text-white md:rounded-2xl md:bg-right md:px-14 md:pb-[450px] md:pt-16 lg:flex-row lg:flex-row lg:px-24 lg:py-36 lg:text-left'>
 			<div className='flex flex-col items-center gap-6 lg:items-start lg:gap-10'>
@@ -16,11 +17,8 @@ const HomeHero = () => {
 						experiences. Find out more about our services.
 					</p>
 				</div>
-				<Link
-					href={'#'}
-					className='z-10 rounded-lg bg-white px-6 py-4 text-[15px] font-medium uppercase tracking-[1px] text-darkGrey hover:bg-lightPeach hover:text-white'>
-					Learn More
-				</Link>
+
+				<CTAButton href='#' label='Learn More' />
 			</div>
 			<Image
 				src={HeroImage}
@@ -30,4 +28,4 @@ const HomeHero = () => {
 		</section>
 	)
 }
-export default HomeHero
+export default Hero

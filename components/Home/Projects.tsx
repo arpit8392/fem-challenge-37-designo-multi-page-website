@@ -21,7 +21,7 @@ const projects = [
 	},
 ]
 
-const HomeProjects = () => {
+const Projects = () => {
 	return (
 		<section className='px-6 md:px-0'>
 			<ul className='grid grid-cols-1 grid-rows-3 gap-6 lg:grid-cols-2 lg:grid-rows-2 lg:gap-x-8 lg:gap-y-6'>
@@ -73,4 +73,4 @@ const HomeProjects = () => {
 		</section>
 	)
 }
-export default HomeProjects
+export default Projects

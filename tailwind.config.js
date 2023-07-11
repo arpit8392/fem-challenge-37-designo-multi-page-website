@@ -15,6 +15,13 @@ module.exports = {
 			},
 			backgroundImage: {
 				'hero-home': 'url("/assets/home/desktop/bg-pattern-hero-home.svg")',
+				'small-circle':
+					'url("/assets/shared/desktop/bg-pattern-small-circle.svg")',
+				'two-circles':
+					'url("/assets/shared/desktop/bg-pattern-two-circles.svg")',
+				'three-circles':
+					'url("/assets/shared/desktop/bg-pattern-three-circles.svg")',
+				leaf: 'url("/assets/shared/desktop/bg-pattern-leaf.svg")',
 			},
 		},
 	},
