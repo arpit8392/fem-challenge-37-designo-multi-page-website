@@ -5,12 +5,9 @@ import Image from 'next/image'
 
 export default function Home() {
 	return (
-		<main className='min-h-screen md:px-10 lg:px-40'>
+		<main className='md:px-10 lg:px-40'>
 			{/* Hero Section */}
-			<section className='relative flex flex-col items-center overflow-hidden bg-peach bg-hero-home bg-left-bottom md:bg-right-bottom bg-no-repeat px-6 pb-[450px] pt-20 text-center text-white md:rounded-2xl md:px-14 md:pt-16 lg:flex-row lg:px-24 lg:py-36 lg:text-left'>
-				{/* Background Layout */}
-
-				{/* Header */}
+			<section className='relative flex flex-col items-center overflow-hidden bg-peach bg-hero-home bg-left-bottom bg-no-repeat px-6 pb-[350px] pt-20 text-center text-white md:rounded-2xl md:bg-right md:px-14 md:pb-[450px] md:pt-16 lg:flex-row lg:flex-row lg:px-24 lg:py-36 lg:text-left'>
 				<div className='flex flex-col items-center gap-6 lg:items-start lg:gap-10'>
 					{/* Heading + Description */}
 					<div className='flex max-w-md flex-col items-center gap-4 md:max-w-lg'>
@@ -23,20 +20,29 @@ export default function Home() {
 							experiences. Find out more about our services.
 						</p>
 					</div>
-					{/* Learn More Link */}
 					<Link
 						href={'#'}
 						className='z-10 rounded-lg bg-white px-6 py-4 text-[15px] font-medium uppercase tracking-[1px] text-darkGrey hover:bg-lightPeach hover:text-white'>
 						Learn More
 					</Link>
 				</div>
-				{/* Hero Image */}
 				<Image
 					src={HeroImage}
-					alt=''
-					className='absolute translate-y-1/3 md:translate-y-1/4 lg:translate-x-full lg:translate-y-24'
+					alt='Illustration Image'
+					className='absolute top-1/3 mt-20 md:mt-6 lg:end-0 lg:top-0 lg:-mt-4'
 				/>
 			</section>
 		</main>
 	)
+}
+
+{
+	/* Hero Image */
+}
+{
+	/* <Image
+					src={HeroImage}
+					alt=''
+					className='absolute translate-y-1/3 md:translate-y-1/4 lg:translate-x-full lg:translate-y-24'
+				/> */
 }
