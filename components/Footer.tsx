@@ -10,7 +10,7 @@ const Footer = () => {
 			<nav className='flex flex-col items-center gap-8 md:flex-row md:justify-between'>
 				<Image src={Logo} alt='Designo' className='w-auto object-contain' />
 				<hr className='h-[1px] w-full border-white/10 md:hidden' />
-				<ul className='flex flex-col items-center gap-8 md:flex-row'>
+				<ul className='z-50 flex flex-col items-center gap-8 md:flex-row'>
 					{navLinks.map((link, index) => (
 						<li key={index}>
 							<Link
@@ -34,7 +34,7 @@ const Footer = () => {
 					<span className='block'>P : +1 253-863-8967</span>M :
 					contact@designo.co
 				</p>
-				<div className='md:self-end md:justify-self-end'>
+				<div className='z-50 md:self-end md:justify-self-end'>
 					<SocialLinks />
 				</div>
 			</div>

@@ -2,7 +2,7 @@ import Header from '@/components/Header'
 import './globals.css'
 import type { Metadata } from 'next'
 import { Jost } from 'next/font/google'
-import Footer from '@/components/Footer'
+import CTAWithFooter from '@/components/CTAWithFooter'
 
 const jost = Jost({ subsets: ['latin'] })
 
@@ -22,7 +22,8 @@ export default function RootLayout({
 			<body className={`${jost.className} scroll-smooth bg-white antialiased`}>
 				<Header />
 				{children}
-				<Footer />
+				<CTAWithFooter />
+				{/* <Footer /> */}
 			</body>
 		</html>
 	)

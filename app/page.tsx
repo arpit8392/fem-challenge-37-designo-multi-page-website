@@ -1,4 +1,6 @@
 import CTA from '@/components/CTA'
+import CTAWithFooter from '@/components/CTAWithFooter'
+import Footer from '@/components/Footer'
 import Features from '@/components/Home/Features'
 import Hero from '@/components/Home/Hero'
 import Projects from '@/components/Home/Projects'
@@ -9,7 +11,6 @@ export default function Home() {
 			<Hero />
 			<Projects />
 			<Features />
-			<CTA />
 		</main>
 	)
 }
