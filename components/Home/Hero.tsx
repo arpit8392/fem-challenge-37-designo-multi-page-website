@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import Link from 'next/link'
 import HeroImage from '@/public/assets/home/desktop/image-hero-phone.png'
 import CTAButton from '../CTAButton'
 

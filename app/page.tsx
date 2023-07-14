@@ -1,6 +1,3 @@
-import CTA from '@/components/CTA'
-import CTAWithFooter from '@/components/CTAWithFooter'
-import Footer from '@/components/Footer'
 import Features from '@/components/home/Features'
 import Hero from '@/components/home/Hero'
 import Projects from '@/components/home/Projects'

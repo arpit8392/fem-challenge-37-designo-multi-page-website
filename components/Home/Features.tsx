@@ -1,7 +1,7 @@
 import Image from 'next/image'
-import Feature from './Feature'
 import Leaf from '@/public/assets/shared/desktop/bg-pattern-leaf.svg'
 import { featuresData } from '@/data'
+import Feature from './Feature'
 
 // TODO: Workout the Leaf Layout for the background of Features Section
 
