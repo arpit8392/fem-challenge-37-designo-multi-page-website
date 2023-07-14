@@ -9,7 +9,7 @@ import CloseIcon from '@/public/assets/shared/mobile/icon-close.svg'
 import { useState } from 'react'
 import { Dialog } from '@headlessui/react'
 
-// TODO: Issue: Header is also getting overlayed but shouldn't be as per the design
+// TODO: On Mobile Navigation, Header is also getting overlayed but shouldn't be as per the design
 
 const Header = () => {
 	const [isOpen, setIsOpen] = useState(false)
@@ -17,7 +17,9 @@ const Header = () => {
 	return (
 		<header className='px-6 py-9 md:px-10 md:py-16 lg:px-40'>
 			<nav className='flex items-center justify-between'>
-				<Image src={Logo} alt='Designo' className='w-auto object-contain' />
+				<Link href={'/'}>
+					<Image src={Logo} alt='Designo' className='w-auto object-contain' />
+				</Link>
 				<ul className='hidden items-center gap-10 md:flex'>
 					{navLinks.map((link, index) => (
 						<li key={index}>

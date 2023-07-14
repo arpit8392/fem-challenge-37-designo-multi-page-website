@@ -8,7 +8,9 @@ const Footer = () => {
 	return (
 		<footer className='flex flex-col gap-8 bg-offBlack px-6 py-16 text-white md:gap-10 md:px-10 md:py-20 lg:px-40'>
 			<nav className='flex flex-col items-center gap-8 md:flex-row md:justify-between'>
-				<Image src={Logo} alt='Designo' className='w-auto object-contain' />
+				<Link href={'/'} className='z-50'>
+					<Image src={Logo} alt='Designo' className='w-auto object-contain' />
+				</Link>
 				<hr className='h-[1px] w-full border-white/10 md:hidden' />
 				<ul className='z-50 flex flex-col items-center gap-8 md:flex-row'>
 					{navLinks.map((link, index) => (

@@ -2,30 +2,13 @@ import Image from 'next/image'
 import Link from 'next/link'
 import RightArrow from '@/public/assets/shared/desktop/icon-right-arrow.svg'
 import clsx from 'clsx'
-
-const projects = [
-	{
-		title: 'web design',
-		href: '#',
-		image: 'image-web-design.jpg',
-	},
-	{
-		title: 'app design',
-		href: '#',
-		image: 'image-app-design.jpg',
-	},
-	{
-		title: 'graphic design',
-		href: '#',
-		image: 'image-graphic-design.jpg',
-	},
-]
+import { projectsNavLinks } from '@/data'
 
 const Projects = () => {
 	return (
 		<section className='px-6 md:px-0'>
 			<ul className='grid grid-cols-1 grid-rows-3 gap-6 lg:grid-cols-2 lg:grid-rows-2 lg:gap-x-8 lg:gap-y-6'>
-				{projects.map((project, index) => (
+				{projectsNavLinks.map((project, index) => (
 					<li
 						key={index}
 						className={clsx(
