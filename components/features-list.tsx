@@ -1,11 +1,11 @@
 import Image from 'next/image'
 import Leaf from '@/public/assets/shared/desktop/bg-pattern-leaf.svg'
 import { featuresData } from '@/data'
-import Feature from './Feature'
+import Feature from './feature-item'
 
 // TODO: Workout the Leaf Layout for the background of Features Section
 
-const Features = () => {
+const FeaturesList = () => {
 	return (
 		<section className='relative'>
 			{/* <Image src={Leaf} alt='' className='absolute -z-50 hidden lg:block right-0 top-1/2' /> */}
@@ -19,4 +19,4 @@ const Features = () => {
 		</section>
 	)
 }
-export default Features
+export default FeaturesList

@@ -12,7 +12,7 @@ const Projects = () => {
 					<li
 						key={index}
 						className={clsx(
-							'relative overflow-hidden rounded-2xl bg-black/50 py-24 text-white duration-200 hover:bg-peach/80 md:py-14 lg:py-28',
+							'relative cursor-pointer overflow-hidden rounded-2xl bg-black/50 py-24 text-white duration-200 hover:bg-peach/80 md:py-14 lg:py-28',
 							index === 0 && 'lg:row-span-2'
 						)}>
 						<Image

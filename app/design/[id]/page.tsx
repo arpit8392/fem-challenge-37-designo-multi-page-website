@@ -1,5 +1,5 @@
-import Introduction from '@/components/design/Introduction'
-import Projects from '@/components/design/Projects'
+import Introduction from '@/components/intro'
+import ProjectsList from '@/components/projects-list'
 import { designsData } from '@/data'
 
 type Props = {
@@ -21,7 +21,7 @@ const page = ({ params: { id } }: Props) => {
 	return (
 		<main className='flex flex-col gap-24 md:px-10 lg:px-40'>
 			<Introduction heading={data?.name} description={data?.description} />
-			<Projects name={data?.name} projects={data?.projects} />
+			<ProjectsList name={data?.name} projects={data?.projects} />
 		</main>
 	)
 }

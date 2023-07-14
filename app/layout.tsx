@@ -1,8 +1,8 @@
-import Header from '@/components/Header'
+import Header from '@/components/header'
 import './globals.css'
 import type { Metadata } from 'next'
 import { Jost } from 'next/font/google'
-import CTAWithFooter from '@/components/CTAWithFooter'
+import CTAWithFooter from '@/components/cta-footer'
 
 const jost = Jost({ subsets: ['latin'] })
 

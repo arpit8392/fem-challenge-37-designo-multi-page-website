@@ -1,6 +1,6 @@
 import Image from 'next/image'
 
-const Feature = ({ title, description, icon }: Feature) => {
+const FeatureItem = ({ title, description, icon }: Feature) => {
 	return (
 		<figure className='flex flex-col items-center gap-12 md:flex-row lg:flex-col'>
 			<Image
@@ -19,4 +19,4 @@ const Feature = ({ title, description, icon }: Feature) => {
 		</figure>
 	)
 }
-export default Feature
+export default FeatureItem

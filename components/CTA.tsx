@@ -1,5 +1,4 @@
-import Link from 'next/link'
-import CTAButton from './CTAButton'
+import CTAButton from './cta-button'
 
 const CTA = () => {
 	return (

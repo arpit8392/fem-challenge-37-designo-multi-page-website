@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import HeroImage from '@/public/assets/home/desktop/image-hero-phone.png'
-import CTAButton from '../CTAButton'
+import CTAButton from './cta-button'
 
 const Hero = () => {
 	return (

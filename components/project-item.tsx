@@ -4,7 +4,7 @@ type Props = {
 	project?: Project
 	name?: string
 }
-const Project = ({ project, name }: Props) => {
+const ProjectItem = ({ project, name }: Props) => {
 	return (
 		<li
 			key={project?.title}
@@ -31,4 +31,4 @@ const Project = ({ project, name }: Props) => {
 		</li>
 	)
 }
-export default Project
+export default ProjectItem

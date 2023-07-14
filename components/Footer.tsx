@@ -2,7 +2,7 @@ import { navLinks } from '@/data'
 import Logo from '@/public/assets/shared/desktop/logo-light.png'
 import Image from 'next/image'
 import Link from 'next/link'
-import SocialLinks from './SocialLinks'
+import SocialLinks from './social-links'
 
 const Footer = () => {
 	return (
