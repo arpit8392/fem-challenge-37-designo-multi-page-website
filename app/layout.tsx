@@ -1,8 +1,8 @@
 import './globals.css'
 import type { Metadata } from 'next'
 import { Jost } from 'next/font/google'
+import Header from '@/components/common-header'
 import CTAWithFooter from '@/components/cta-footer'
-import Header from '@/components/header'
 
 const jost = Jost({ subsets: ['latin'] })
 
@@ -23,7 +23,6 @@ export default function RootLayout({
 				<Header />
 				{children}
 				<CTAWithFooter />
-				{/* <Footer /> */}
 			</body>
 		</html>
 	)
