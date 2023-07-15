@@ -1,5 +1,5 @@
 import Footer from './common-footer'
-import CTA from './cta'
+import CTA from './common-cta'
 
 const CTAWithFooter = () => {
 	return (
