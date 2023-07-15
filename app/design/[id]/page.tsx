@@ -16,7 +16,7 @@ const findByID = (id: string) => {
 	return data
 }
 
-const page = ({ params: { id } }: Props) => {
+const DesignPage = ({ params: { id } }: Props) => {
 	const data = findByID(id)
 
 	return (
@@ -43,4 +43,4 @@ export async function generateMetadata({ params: { id } }: Props) {
 	}
 }
 
-export default page
+export default DesignPage
