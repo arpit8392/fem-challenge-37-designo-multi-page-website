@@ -16,3 +16,8 @@ type Design = {
 	description: string
 	projects: Project[]
 }
+
+type LocationData = {
+	image: string
+	location: string
+}

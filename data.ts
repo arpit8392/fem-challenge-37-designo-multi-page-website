@@ -156,3 +156,18 @@ export const designsData = [
 		],
 	},
 ]
+
+export const locationsData = [
+	{
+		location: 'Canada',
+		image: 'illustration-canada.svg',
+	},
+	{
+		location: 'Australia',
+		image: 'illustration-australia.svg',
+	},
+	{
+		location: 'United Kingdom',
+		image: 'illustration-united-kingdom.svg',
+	},
+]

@@ -1,3 +1,4 @@
+import LocationsList from '@/components/locations-list'
 import Image from 'next/image'
 
 const AboutPage = () => {
@@ -81,9 +82,12 @@ const AboutPage = () => {
 					</figcaption>
 				</figure>
 			</section>
+			<section className='px-3 py-32 md:px-0 md:py-0'>
+				<LocationsList />
+			</section>
 			<section>
 				<figure className='flex flex-col overflow-hidden md:rounded-2xl lg:flex-row'>
-					<picture className='relative h-80 w-full lg:h-[640px] lg:w-2/5 lg:order-last'>
+					<picture className='relative h-80 w-full lg:order-last lg:h-[640px] lg:w-2/5'>
 						<Image
 							src={'/assets/about/mobile/image-real-deal.jpg'}
 							alt=''
