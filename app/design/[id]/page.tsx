@@ -1,6 +1,7 @@
+import FilteredNavLinks from '@/components/filtered-nav-links'
 import Introduction from '@/components/intro'
 import ProjectsList from '@/components/projects-list'
-import { designsData } from '@/data'
+import { designsData, projectsNavLinks } from '@/data'
 
 type Props = {
 	params: {
@@ -22,10 +23,10 @@ const page = ({ params: { id } }: Props) => {
 		<main className='flex flex-col gap-24 md:px-10 lg:px-40'>
 			<Introduction heading={data?.name} description={data?.description} />
 			<ProjectsList name={data?.name} projects={data?.projects} />
+			<FilteredNavLinks current={id} />
 		</main>
 	)
 }
-export default page
 
 export async function generateStaticParams() {
 	return designsData.map((design) => ({
@@ -41,3 +42,5 @@ export async function generateMetadata({ params: { id } }: Props) {
 		title,
 	}
 }
+
+export default page
