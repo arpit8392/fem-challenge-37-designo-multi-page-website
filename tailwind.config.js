@@ -23,6 +23,10 @@ module.exports = {
 				'three-circles':
 					'url("/assets/shared/desktop/bg-pattern-three-circles.svg")',
 				leaf: 'url("/assets/shared/desktop/bg-pattern-leaf.svg")',
+				'contact-mobile':
+					'url("/assets/contact/mobile/bg-pattern-hero-contact-mobile.svg")',
+				'contact-desktop':
+					'url("/assets/contact/desktop/bg-pattern-hero-desktop.svg")',
 			},
 		},
 	},

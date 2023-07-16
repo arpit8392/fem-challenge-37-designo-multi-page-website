@@ -13,7 +13,7 @@ const CTA = () => {
 						how our expertise can help your business grow.
 					</p>
 				</div>
-				<CTAButton href='#' label='Get in Touch' />
+				<CTAButton href='/contact' label='Get in Touch' />
 			</div>
 		</section>
 	)
