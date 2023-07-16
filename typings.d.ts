@@ -18,6 +18,16 @@ type Design = {
 }
 
 type LocationData = {
+	illustrationImage: string
 	image: string
 	location: string
+	office: {
+		name: string
+		street: string
+		city: string
+	}
+	contact: {
+		phone: string
+		mail: string
+	}
 }

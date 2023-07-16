@@ -157,17 +157,47 @@ export const designsData = [
 	},
 ]
 
-export const locationsData = [
+export const locationsData: LocationData[] = [
 	{
 		location: 'Canada',
-		image: 'illustration-canada.svg',
+		illustrationImage: 'illustration-canada.svg',
+		image: 'image-map-canada.png',
+		office: {
+			name: 'Designo Central Office',
+			street: '3886 Wellington Street',
+			city: 'Toronto, Ontario M9C 3J5',
+		},
+		contact: {
+			phone: '+1 253-863-8967',
+			mail: 'contact@designo.co',
+		},
 	},
 	{
 		location: 'Australia',
-		image: 'illustration-australia.svg',
+		illustrationImage: 'illustration-australia.svg',
+		image: 'image-map-australia.png',
+		office: {
+			name: 'Designo AU Office',
+			street: '19 Balonne Street',
+			city: 'New South Wales 2443',
+		},
+		contact: {
+			phone: '(02) 6720 9092',
+			mail: 'contact@designo.au',
+		},
 	},
 	{
 		location: 'United Kingdom',
-		image: 'illustration-united-kingdom.svg',
+		illustrationImage: 'illustration-united-kingdom.svg',
+		image: 'image-map-united-kingdom.png',
+		office: {
+			name: 'Designo UK Office',
+			street: '13  Colorado Way',
+			city: 'Rhyd-y-fro SA8 9GA',
+		},
+		contact: {
+			phone: '078 3115 1400',
+			mail: 'contact@designo.uk',
+		},
 	},
 ]
