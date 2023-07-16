@@ -10,6 +10,7 @@ module.exports = {
 				peach: '#E7816B',
 				offBlack: '#1D1C1E',
 				lightPeach: '#FFAD9B',
+				cream: '#FDF3F0',
 				darkGrey: '#333136',
 				lightGrey: '#F1F3F5',
 			},

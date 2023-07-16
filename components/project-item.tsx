@@ -8,7 +8,7 @@ const ProjectItem = ({ project, name }: Props) => {
 	return (
 		<li
 			key={project?.title}
-			className='group cursor-pointer overflow-hidden rounded-2xl bg-[#FDF3F0] hover:bg-peach'>
+			className='group cursor-pointer overflow-hidden rounded-2xl bg-cream hover:bg-peach'>
 			<figure className='flex flex-col items-center md:flex-row lg:flex-col'>
 				<Image
 					src={`/assets/${name?.toLowerCase()}-design/desktop/${

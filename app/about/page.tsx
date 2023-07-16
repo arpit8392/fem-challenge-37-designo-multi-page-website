@@ -62,7 +62,7 @@ const AboutPage = () => {
 							className='hidden lg:block'
 						/>
 					</picture>
-					<figcaption className='flex flex-col items-center gap-6 bg-[#FDF3F0] px-6 py-20 text-center text-darkGrey md:gap-8 md:p-16 lg:w-3/5 lg:items-start lg:justify-center lg:px-24 lg:text-left'>
+					<figcaption className='flex flex-col items-center gap-6 bg-cream px-6 py-20 text-center text-darkGrey md:gap-8 md:p-16 lg:w-3/5 lg:items-start lg:justify-center lg:px-24 lg:text-left'>
 						<h2 className='text-[32px]/[36px] font-medium text-peach md:text-[40px]/[48px]'>
 							World-class talent
 						</h2>
@@ -107,7 +107,7 @@ const AboutPage = () => {
 							className='hidden lg:block'
 						/>
 					</picture>
-					<figcaption className='flex flex-col items-center gap-6 bg-[#FDF3F0] px-6 py-20 text-center text-darkGrey md:gap-8 md:p-16 lg:w-3/5 lg:items-start lg:justify-center lg:px-24 lg:text-left'>
+					<figcaption className='flex flex-col items-center gap-6 bg-cream px-6 py-20 text-center text-darkGrey md:gap-8 md:p-16 lg:w-3/5 lg:items-start lg:justify-center lg:px-24 lg:text-left'>
 						<h2 className='text-[32px]/[36px] font-medium text-peach md:text-[40px]/[48px]'>
 							The real deal
 						</h2>
