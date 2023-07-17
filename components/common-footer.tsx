@@ -28,13 +28,13 @@ const Footer = () => {
 			<div className='grid grid-cols-1 justify-items-center gap-10 md:grid-cols-6 md:justify-items-start'>
 				<p className='text-center text-base/7 text-white/50 md:col-span-2 md:text-left'>
 					<span className='block font-bold'>Designo Central Office</span>
-					<span className='block'>3886 Wellington Street</span>Toronto, Ontario
-					M9C 3J5
+					<span className='block'>3886 Wellington Street</span>
+					<span className='block'>Toronto, Ontario M9C 3J5</span>
 				</p>
 				<p className='text-center text-base/7 text-white/50 md:col-span-3 md:text-left md:font-bold'>
 					<span className='block font-bold'>Contact Us (Central Office)</span>
-					<span className='block'>P : +1 253-863-8967</span>M :
-					contact@designo.co
+					<span className='block'>P : +1 253-863-8967</span>
+					<span className='block'>M : contact@designo.co</span>
 				</p>
 				<div className='z-50 md:self-end md:justify-self-end'>
 					<SocialLinks />
