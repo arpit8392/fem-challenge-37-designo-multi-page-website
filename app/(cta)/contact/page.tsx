@@ -1,5 +1,10 @@
 import ContactUsForm from '@/components/contact-us-form'
 import LocationsList from '@/components/locations-list'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+	title: 'Designo Multi Page Website | Contact Us',
+}
 
 const ContactPage = () => {
 	return (
