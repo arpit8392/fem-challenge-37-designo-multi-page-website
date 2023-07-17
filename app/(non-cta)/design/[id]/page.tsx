@@ -1,7 +1,7 @@
 import FilteredNavLinks from '@/components/filtered-nav-links'
 import Introduction from '@/components/intro'
 import ProjectsList from '@/components/projects-list'
-import { designsData, projectsNavLinks } from '@/data'
+import { designsData } from '@/data'
 
 type Props = {
 	params: {

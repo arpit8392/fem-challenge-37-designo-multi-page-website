@@ -23,6 +23,7 @@ const LocationsPage = () => {
 									alt={`Map Image of ${item.location}`}
 									width={375}
 									height={320}
+									priority
 									className='w-full overflow-hidden object-contain md:rounded-2xl lg:hidden'
 								/>
 								<Image
@@ -30,6 +31,7 @@ const LocationsPage = () => {
 									alt={`Map Image of ${item.location}`}
 									width={350}
 									height={326}
+									priority
 									className='hidden h-full w-full overflow-hidden object-contain md:rounded-2xl lg:block'
 								/>
 							</picture>

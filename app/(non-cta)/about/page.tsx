@@ -16,18 +16,21 @@ const AboutPage = () => {
 							src={'/assets/about/mobile/image-about-hero.jpg'}
 							alt=''
 							fill
+							priority
 							className='block md:hidden'
 						/>
 						<Image
 							src={'/assets/about/tablet/image-about-hero.jpg'}
 							alt=''
 							fill
+							priority
 							className='hidden md:block lg:hidden'
 						/>
 						<Image
 							src={'/assets/about/desktop/image-about-hero.jpg'}
 							alt=''
 							fill
+							priority
 							className='hidden lg:block'
 						/>
 					</picture>
