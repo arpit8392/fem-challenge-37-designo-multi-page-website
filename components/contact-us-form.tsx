@@ -6,6 +6,7 @@ import * as yup from 'yup'
 
 import ErrorIcon from '@/public/assets/contact/desktop/icon-error.svg'
 import Image from 'next/image'
+import { toast } from 'react-hot-toast'
 
 const schema = yup
 	.object({
@@ -25,12 +26,20 @@ const ContactUsForm = () => {
 	const {
 		register,
 		handleSubmit,
+		reset,
+		formState: { isSubmitSuccessful },
 		formState: { errors },
 	} = useForm({
 		resolver: yupResolver(schema),
 	})
 
-	const onSubmit = (data: FormData) => console.log(data)
+	const onSubmit = (data: FormData) => {
+		if (isSubmitSuccessful) {
+			console.log('Form submitted with data: ', data)
+			toast.success('Form submitted successfully!')
+			reset()
+		}
+	}
 
 	return (
 		<form

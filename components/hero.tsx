@@ -17,7 +17,7 @@ const Hero = () => {
 					</p>
 				</div>
 
-				<CTAButton href='#' label='Learn More' />
+				<CTAButton href='/about' label='Learn More' />
 			</div>
 			<Image
 				src={HeroImage}
