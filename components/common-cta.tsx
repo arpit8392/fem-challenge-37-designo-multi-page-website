@@ -3,7 +3,7 @@ import CTAButton from './cta-button'
 const CTA = () => {
 	return (
 		<section className='px-6 md:px-10 lg:px-40'>
-			<div className='flex flex-col items-center gap-8 rounded-2xl bg-peach bg-three-circles bg-center bg-no-repeat px-6 py-16 text-center text-white md:p-14 lg:flex-row lg:justify-between lg:px-24 lg:py-20'>
+			<div className='flex flex-col items-center gap-8 rounded-2xl bg-peach bg-call-to-action bg-three-circles bg-center bg-no-repeat bg-no-repeat px-6 py-16 text-center text-white md:p-14 lg:flex-row lg:justify-between lg:bg-right lg:px-24 lg:py-20'>
 				<div className='flex flex-col items-center gap-3 md:gap-4 lg:items-start lg:text-left'>
 					<h4 className='max-w-xs text-[32px]/9 font-medium md:text-[40px]/10'>
 						Let’s talk about your project

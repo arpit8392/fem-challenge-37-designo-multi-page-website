@@ -16,6 +16,8 @@ module.exports = {
 			},
 			backgroundImage: {
 				'hero-home': 'url("/assets/home/desktop/bg-pattern-hero-home.svg")',
+				'call-to-action':
+					'url("/assets/shared/desktop/bg-pattern-call-to-action.svg")',
 				'small-circle':
 					'url("/assets/shared/desktop/bg-pattern-small-circle.svg")',
 				'two-circles':
@@ -27,6 +29,20 @@ module.exports = {
 					'url("/assets/contact/mobile/bg-pattern-hero-contact-mobile.svg")',
 				'contact-desktop':
 					'url("/assets/contact/desktop/bg-pattern-hero-desktop.svg")',
+				'design-intro-mobile':
+					'url("/assets/shared/mobile/bg-pattern-design-pages-intro-mobile.svg")',
+				'design-intro-tablet':
+					'url("/assets/shared/tablet/bg-pattern-design-pages-intro-tablet.svg")',
+				'web-design-intro-desktop':
+					'url("/assets/web-design/desktop/bg-pattern-intro-web.svg")',
+				'graphic-design-intro-desktop':
+					'url("/assets/graphic-design/desktop/bg-pattern-intro-graphic.svg")',
+				'app-design-intro-desktop':
+					'url("/assets/app-design/desktop/bg-pattern-intro-app.svg")',
+				'about-desktop':
+					'url("/assets/about/desktop/bg-pattern-hero-about-desktop.svg")',
+				'about-mobile':
+					'url("/assets/about/mobile/bg-pattern-hero-about-mobile.svg")',
 			},
 		},
 	},

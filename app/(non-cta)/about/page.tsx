@@ -31,7 +31,7 @@ const AboutPage = () => {
 							className='hidden lg:block'
 						/>
 					</picture>
-					<figcaption className='flex flex-col items-center gap-6 bg-peach px-6 py-20 text-center text-white md:gap-8 md:p-16 lg:w-3/5 lg:items-start lg:justify-center lg:pl-24 lg:pr-20 lg:text-left'>
+					<figcaption className='flex flex-col items-center gap-6 bg-peach bg-about-mobile bg-no-repeat px-6 py-20 text-center text-white md:gap-8 md:bg-about-desktop md:bg-top md:p-16 lg:w-3/5 lg:items-start lg:justify-center lg:bg-left lg:pl-24 lg:pr-20 lg:text-left'>
 						<h1 className='text-[32px]/[36px] font-medium md:text-[48px]/[48px]'>
 							About Us
 						</h1>
