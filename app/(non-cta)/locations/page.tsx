@@ -1,6 +1,11 @@
 import { locationsData } from '@/data'
 import clsx from 'clsx'
 import Image from 'next/image'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+	title: 'Designo Multi Page Website | Locations',
+}
 
 const LocationsPage = () => {
 	return (
