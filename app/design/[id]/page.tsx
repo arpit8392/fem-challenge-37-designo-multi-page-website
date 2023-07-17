@@ -20,7 +20,7 @@ const DesignPage = ({ params: { id } }: Props) => {
 	const data = findByID(id)
 
 	return (
-		<main className='flex flex-col gap-24 md:px-10 lg:px-40'>
+		<main className='flex flex-col gap-32 md:px-10 lg:gap-40 lg:px-40'>
 			<Introduction heading={data?.name} description={data?.description} />
 			<ProjectsList name={data?.name} projects={data?.projects} />
 			<FilteredNavLinks current={id} />
