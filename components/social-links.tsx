@@ -73,14 +73,12 @@ const SocialLinks = () => {
 		<ul className='flex flex-row items-center gap-4'>
 			{socialLinks.map((link, index) => (
 				<li key={index}>
-					<Link prefetch={false} href={link.href}>
-						<link.icon
-							className='fill-peach hover:fill-lightPeach'
-							aria-hidden='true'
-							focusable='false'
-						/>
+					<Link
+						prefetch={false}
+						href={link.href}
+						aria-label={`Social Media Link for ${link.name} handle`}>
+						<link.icon className='fill-peach hover:fill-lightPeach' />
 					</Link>
-					<span className='sr-only'>{link.name}</span>
 				</li>
 			))}
 		</ul>
