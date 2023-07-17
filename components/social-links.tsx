@@ -79,8 +79,8 @@ const SocialLinks = () => {
 							aria-hidden='true'
 							focusable='false'
 						/>
-						<span className='sr-only'>{link.name}</span>
 					</Link>
+					<span className='sr-only'>{link.name}</span>
 				</li>
 			))}
 		</ul>

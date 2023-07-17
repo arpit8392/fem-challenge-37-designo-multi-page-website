@@ -7,12 +7,12 @@ export default function RootLayout({
 	children: React.ReactNode
 }) {
 	return (
-		<div>
+		<>
 			{children}
 			<Toaster position='top-center' />
 			<div className='mt-32 lg:mt-40'>
 				<Footer />
 			</div>
-		</div>
+		</>
 	)
 }
