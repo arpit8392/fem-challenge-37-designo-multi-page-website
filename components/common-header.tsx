@@ -9,8 +9,6 @@ import CloseIcon from '@/public/assets/shared/mobile/icon-close.svg'
 import { useState } from 'react'
 import { Dialog } from '@headlessui/react'
 
-// TODO: On Mobile Navigation, Header is also getting overlayed but shouldn't be as per the design
-
 const Header = () => {
 	const [isOpen, setIsOpen] = useState(false)
 
