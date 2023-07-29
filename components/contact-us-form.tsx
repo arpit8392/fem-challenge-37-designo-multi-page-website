@@ -33,11 +33,33 @@ const ContactUsForm = () => {
 		resolver: yupResolver(schema),
 	})
 
-	const onSubmit = (data: FormData) => {
+	const onSubmit = async (data: FormData) => {
 		if (isSubmitSuccessful) {
 			console.log('Form submitted with data: ', data)
-			toast.success('Form submitted successfully!')
-			reset()
+			toast.promise(
+				fetch('/api/contact', {
+					method: 'POST',
+					headers: {
+						'Content-Type': 'application/json',
+					},
+					body: JSON.stringify(data),
+				}).then(async (res) => {
+					const response = await res.json()
+					reset()
+					return response
+				}),
+				{
+					loading: 'Sending...',
+					success: (response) => {
+						// console.log('Response:', response)
+						return 'Thank you, I will connect with you shortly!'
+					},
+					error: (error) => {
+						// console.error('Error:', error)
+						return 'Error in submitting the form, Please try again!!!'
+					},
+				}
+			)
 		}
 	}
 
