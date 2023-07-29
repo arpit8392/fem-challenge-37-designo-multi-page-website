@@ -51,11 +51,11 @@ const ContactUsForm = () => {
 				{
 					loading: 'Sending...',
 					success: (response) => {
-						// console.log('Response:', response)
+						console.log('Response:', response)
 						return 'Thank you, I will connect with you shortly!'
 					},
 					error: (error) => {
-						// console.error('Error:', error)
+						console.error('Error:', error)
 						return 'Error in submitting the form, Please try again!!!'
 					},
 				}
